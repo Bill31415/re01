@@ -47,16 +47,16 @@ Our team consists of the following members, listed in the table below (the team 
 
 <!-- change the info below to be the real case -->
 
-| Student ID | Student Name   | GitHub Account (in Email) |
-| ---------- | ------------   | ------------------------- |
-| 121090291  | 李毅然 🚩      | 121090291@link.cuhk.edu.cn  |
-| 122090870  | 姜耘逸         | 122090870@link.cuhk.edu.cn           | 
-| 121090174  | 何智涵         | 121090174@link.cuhk.edu.cn            |
-| 121090792  | 张晓宇         | 121090792@link.cuhk.edu.cn            |
-| 121090619  | 吴优           | 121090619@link.cuhk.edu.cn            |
-| 122090259  | 李洪宇         | 122090259@link.cuhk.edu.cn            |
-| 121090703  | 杨路佳宁       | 121090703@link.cuhk.edu.cn            |
-| 122040090  | 张渊铭         | 122040090@link.cuhk.edu.cn            |
+| Student ID | Student Name   |       Email Address       |  Contribution |
+| ---------- | ------------   | ------------------------- |------------------------- |
+| 121090291  | 李毅然 🚩      | 121090291@link.cuhk.edu.cn  |Data analytic SQL queries and presentation|
+| 122090870  | 姜耘逸         | 122090870@link.cuhk.edu.cn  | Relation schemas and presentation
+| 121090174  | 何智涵         | 121090174@link.cuhk.edu.cn  |Report|
+| 121090792  | 张晓宇         | 121090792@link.cuhk.edu.cn  | Web design and presentation  |
+| 121090619  | 吴优           | 121090619@link.cuhk.edu.cn  | Data generation|
+| 122090259  | 李洪宇         | 122090259@link.cuhk.edu.cn  |Data generation|
+| 121090703  | 杨路佳宁       | 121090703@link.cuhk.edu.cn  | Database design|
+| 122040090  | 张渊铭         | 122040090@link.cuhk.edu.cn  | Indexing/Hashing of data field |
 
 ## 运行项目
 
