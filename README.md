@@ -58,7 +58,7 @@ Our team consists of the following members, listed in the table below (the team 
 | 121090703  | 杨路佳宁       | 121090703@link.cuhk.edu.cn  | Database design|
 | 122040090  | 张渊铭         | 122040090@link.cuhk.edu.cn  | Indexing/Hashing of data field |
 
-## 运行项目
+## 运行项目 (待完善)
 
 1. 安装node.js
 
