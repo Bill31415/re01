@@ -67,7 +67,7 @@ Final_Code
 
 2. Run `myDatabase.sql` with MySql Workbench to create the database and import the data:
 
-2.1 Open the MySql Workbench and create or run an existing connection.
+* 2.1 Open the MySql Workbench and create or run an existing connection.
 
 2.2 After connection is entered, create a schema named `csc3170_project` by pressing the button in the upper left corner. 
 
