@@ -1,6 +1,24 @@
-# CSC3170 Project WebDesign part
+# CSC3170 Project 
 
-## 文件结构总览
+## Team Members
+
+Our team consists of the following members, listed in the table below (the team leader is shown in the first row, and is marked with 🚩 behind his/her name):
+
+| Student ID | Student Name   |       Email Address       |  Contribution |
+| ---------- | ------------   | ------------------------- |------------------------- |
+| 121090291  | 李毅然 🚩      | 121090291@link.cuhk.edu.cn  |Data analytic SQL queries and presentation|
+| 122090870  | 姜耘逸         | 122090870@link.cuhk.edu.cn  | Relation schemas and presentation
+| 121090174  | 何智涵         | 121090174@link.cuhk.edu.cn  |Report|
+| 121090792  | 张晓宇         | 121090792@link.cuhk.edu.cn  | Web design and presentation  |
+| 121090619  | 吴优           | 121090619@link.cuhk.edu.cn  | Data generation|
+| 122090259  | 李洪宇         | 122090259@link.cuhk.edu.cn  |Data generation|
+| 121090703  | 杨路佳宁       | 121090703@link.cuhk.edu.cn  | Database design|
+| 122040090  | 张渊铭         | 122040090@link.cuhk.edu.cn  | Indexing/Hashing of data field |
+
+
+## WebDesign part
+
+### File structure overview
 
 ```
 Final_Code
@@ -35,62 +53,47 @@ Final_Code
   │   ├── login.html
   │   ├── sql.html
   │   └── table.html
+  ├── README.md
   └── myDatabase.sql
 
 96 directories, 23 files
 
 ```
 
-## Team Members
 
-Our team consists of the following members, listed in the table below (the team leader is shown in the first row, and is marked with 🚩 behind his/her name):
+### The operation steps for the project
 
-<!-- change the info below to be the real case -->
+1. Install node.js
 
-| Student ID | Student Name   |       Email Address       |  Contribution |
-| ---------- | ------------   | ------------------------- |------------------------- |
-| 121090291  | 李毅然 🚩      | 121090291@link.cuhk.edu.cn  |Data analytic SQL queries and presentation|
-| 122090870  | 姜耘逸         | 122090870@link.cuhk.edu.cn  | Relation schemas and presentation
-| 121090174  | 何智涵         | 121090174@link.cuhk.edu.cn  |Report|
-| 121090792  | 张晓宇         | 121090792@link.cuhk.edu.cn  | Web design and presentation  |
-| 121090619  | 吴优           | 121090619@link.cuhk.edu.cn  | Data generation|
-| 122090259  | 李洪宇         | 122090259@link.cuhk.edu.cn  |Data generation|
-| 121090703  | 杨路佳宁       | 121090703@link.cuhk.edu.cn  | Database design|
-| 122040090  | 张渊铭         | 122040090@link.cuhk.edu.cn  | Indexing/Hashing of data field |
+2. Run `myDatabase.sql` with MySql Workbench to create the database and import the data:
 
-## 运行项目 (待完善)
+  2.1 Open the MySql Workbench and create or run an existing connection.
 
-1. 安装node.js
+  2.2 After connection is entered, create a schema named `csc3170_project` by pressing the button in the upper left corner. 
 
-2. 借助MySql Workbench运行`myDatabase.sql`以创建数据库并导入数据:
+  2.3 Open `myDatabase.sql` through the file option in the upper left corner.
 
-  2.1 打开MySql Workbench, 新建或运行已有connection.
+    Run `myDatabase.sql`
 
-  2.2 进入connection后, 通过左上角按钮新建一个名为`csc3170_project`的schema.
+3. Modify the database connection configuration file `index.js` as follows (file location `back_end\db\index.js`)
 
-  2.3 通过左上角文件选项打开`myDatabase.sql` (文件位置`Final_Code\myDatabase.sql`). 
+  Change line `password: "root1234",` and replace `root1234` with your MySql login password
 
-    运行`myDatabase.sql`
+4. Open file `Final_Code` using VSCode.
 
-3. 按照如下说明修改数据库连接配置文件`index.js`(文件位置`Final_Code\back_end\db\index.js`):
+  4.1 Enter the command `cd back_end`
 
-  修改`password: "root1234",`一行，用你的MySql登录密码代替`root1234`
+  4.2 Enter the command `node app.js`. If the output of the terminal is as follows, the operation is successful.
 
-4. 使用VSCode打开文件`Final_Code`.
-
-  4.1 输入指令 `cd back_end`
-
-  4.2 输入指令 `node app.js`. 如终端输出如下,则说明运行成功. 
-
-  通过浏览器访问`http://localhost:3000`即可进入登录界面.
-
-  
+  You can access the login page by visiting `http://localhost:3000` in your browser.
 
       ```
         Server running at http://localhost:3000
         Successfully connected to the database
 
       ```
-  4.3 如何终止终端node运行? 按Ctrl + C即可
+  4.3 How Do I Stop the node? Press Ctrl + C
+
+5. Note that for the large language model section, it is normal not to be able to run this section successfully due to different request speeds and VPN conditions on different computers.
   
 
