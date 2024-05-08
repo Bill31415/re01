@@ -67,11 +67,11 @@ Final_Code
 
 2. Run `myDatabase.sql` with MySql Workbench to create the database and import the data:
 
-  2.1 Open the MySql Workbench and create or run an existing connection.
+2.1 Open the MySql Workbench and create or run an existing connection.
 
-  2.2 After connection is entered, create a schema named `csc3170_project` by pressing the button in the upper left corner. 
+2.2 After connection is entered, create a schema named `csc3170_project` by pressing the button in the upper left corner. 
 
-  2.3 Open `myDatabase.sql` through the file option in the upper left corner.
+2.3 Open `myDatabase.sql` through the file option in the upper left corner.
 
     Run `myDatabase.sql`
 
@@ -81,9 +81,9 @@ Final_Code
 
 4. Open file `Final_Code` using VSCode.
 
-  4.1 Enter the command `cd back_end`
+4.1 Enter the command `cd back_end`
 
-  4.2 Enter the command `node app.js`. If the output of the terminal is as follows, the operation is successful.
+4.2 Enter the command `node app.js`. If the output of the terminal is as follows, the operation is successful.
 
   You can access the login page by visiting `http://localhost:3000` in your browser.
 
@@ -92,7 +92,7 @@ Final_Code
         Successfully connected to the database
 
       ```
-  4.3 How Do I Stop the node? Press Ctrl + C
+4.3 How Do I Stop the node? Press Ctrl + C
 
 5. Note that for the large language model section, it is normal not to be able to run this section successfully due to different request speeds and VPN conditions on different computers.
   
